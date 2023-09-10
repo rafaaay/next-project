@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary: #2563EB;
+    --secondary: #7e5bef;
+}
+
+@layer base {
+    h1 {
+        @apply text-h1;
+    }
+    h2 {
+        @apply text-lg
+    }
+}
